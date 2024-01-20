@@ -1,0 +1,19 @@
+name: Sync Fork
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # This will run the workflow daily at midnight
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Sync fork
+      uses: aormsby/Fork-Sync-With-Upstream-action@v2.3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        upstream_repository: DataChant/PowerBI-Visuals-AppSource  # Replace with the original repo's username and name
+        target_branch: main  # Replace with the branch you want to sync
