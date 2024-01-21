@@ -2,7 +2,7 @@ name: 'Upstream Sync'
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # This will run the workflow daily at midnight
+    - cron: '0 11 * * *'  # This will run the workflow daily at midnight
 
   workflow_dispatch:  # click the button on Github repo!
 
