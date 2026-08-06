@@ -27,7 +27,7 @@ jobs:
           filter: blob:none # Blobless clone: blobs are fetched on demand by `git show <sha>:<file>`
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
 
