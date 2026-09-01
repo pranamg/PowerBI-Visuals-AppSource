@@ -1,190 +1,94 @@
-[2026-08-05] 2 new visuals, 5 new versions
+[2026-08-31] 2 new visuals, 6 new versions
 
-Here are the latest updates to the Power BI Visuals on Microsoft Marketplace as of 2026-08-05:
+Here are the latest updates to the Power BI Visuals on Microsoft Marketplace as of 2026-08-31:
 ## 2 New Custom Visuals: ##
 
 <table style="width: 800px; border: none !important; border-collapse: collapse; border-spacing: 0;">
 <tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/233032355.105"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Ranked Bar Chart.png?raw=true" width="100" alt="Ranked Bar Chart" style="max-width: 100%; height: auto;"/>
+  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/smartvisuals.smartvisuals-radar"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/SmartVisuals Radar Chart.png?raw=true" width="100" alt="SmartVisuals Radar Chart" style="max-width: 100%; height: auto;"/>
 </a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Ranked Bar Chart</b></td>
+  <td style="width: 680px; border: none !important; padding: 4px;"><b>SmartVisuals Radar Chart</b></td>
 </tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://github.com/sergiopbi/RankedBarChart/issues">SergioBorgesPBI</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Ranked horizontal bar chart with customizable colors, gradient, typography, and delta vs. target</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/rankedBarChartBA58762B02B74CF1B1198265AE813C13.pbiviz">rankedBarChartBA58762B02B74CF1B1198265AE813C13.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Version: 1.0.0.1<br>Release Date: 2026-08-05</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.smartvisuals.io/support">SmartVisuals.io</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">Radar chart with honest scales, normalization for mixed units, targets, zones and small multiples.</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/radarChartDE4CDC2967844EE98437EAF488DEB8C3.pbiviz">radarChartDE4CDC2967844EE98437EAF488DEB8C3.pbiviz</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">Version: 1.0.0.0<br>Release Date: 2026-08-31</td></tr>
 <tr><td style="border: none !important; padding: 4px;"></td></tr>
 <tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/233032355.101"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Smart Bucket Chart.png?raw=true" width="100" alt="Smart Bucket Chart" style="max-width: 100%; height: auto;"/>
+  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/smartvisuals.smartvisuals-gantt"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/SmartVisuals Gannt Chart.png?raw=true" width="100" alt="SmartVisuals Gannt Chart" style="max-width: 100%; height: auto;"/>
 </a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Smart Bucket Chart</b></td>
+  <td style="width: 680px; border: none !important; padding: 4px;"><b>SmartVisuals Gannt Chart</b></td>
 </tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://github.com/sergiopbi/SmartBucketChart/issues">SergioBorgesPBI</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Bucket/histogram chart that groups rows by a numeric metric or by the dimension itself</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/smartBucketChart11782ADB90F14C8780869C971AADD036.pbiviz">smartBucketChart11782ADB90F14C8780869C971AADD036.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Version: 1.0.1.2<br>Release Date: 2026-08-05</td></tr>
-<tr><td style="border: none !important; padding: 4px;"></td></tr>
-</table>
-
-
-## 5 New Versions: ##
-
-<table style="width: 800px; border: none !important; border-collapse: collapse; border-spacing: 0;">
-<tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/atlyn.atlyn-markdown-viewer"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Atlyn Markdown Viewer.png?raw=true" width="100" alt="Atlyn Markdown Viewer" style="max-width: 100%; height: auto;"/>
-</a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Atlyn Markdown Viewer</b></td>
-</tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.atlynco.com/docs/faq">Atlyn</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;"> Render rich Markdown notes and documentation inside Power BI reports</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/markdownViewer7897821586924C6F9CD657CB549A6967.pbiviz">markdownViewer7897821586924C6F9CD657CB549A6967.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Version Change: 1.0.2.0 ➔ 1.0.5.0<br>Release Date: 2026-08-05<br>Previous Release Date: 2026-07-20</td></tr>
-<tr><td style="border: none !important; padding: 4px;"></td></tr>
-<tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA200001904"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/ADWISE RoadMap _ Gantt.png?raw=true" width="100" alt="ADWISE RoadMap / Gantt" style="max-width: 100%; height: auto;"/>
-</a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>ADWISE RoadMap / Gantt</b></td>
-</tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.adwise-visuals.com/">Adwise s.r.o.</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Plan, roadmap and time shedule phases and milestones. Visual by ADWISE.</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/adwiseVisual73804AE4264848C8BCD67A31A0791911.pbiviz">adwiseVisual73804AE4264848C8BCD67A31A0791911.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Version Change: 3.2.5.0 ➔ 3.2.6.0<br>Release Date: 2026-08-05<br>Previous Release Date: 2026-07-03</td></tr>
-<tr><td style="border: none !important; padding: 4px;"></td></tr>
-<tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/xpandit.writeback4powerbi"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Write-Back for Power BI.png?raw=true" width="100" alt="Write-Back for Power BI" style="max-width: 100%; height: auto;"/>
-</a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Write-Back for Power BI</b></td>
-</tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://support.cloud.writeback4analytics.com/servicedesk/customer/portal/1">Xpand IT</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">A Custom Visual that enables you to seamlessly submit data directly from your Power BI report.</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/writeback4powerbi.pbiviz">writeback4powerbi.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Version Change: 2.3.4.0 ➔ 2.3.5.0<br>Release Date: 2026-08-05<br>Previous Release Date: 2026-07-21</td></tr>
-<tr><td style="border: none !important; padding: 4px;"></td></tr>
-<tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/neenopalinc1751265685990.powrbicv_dd"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Double Donut Chart.png?raw=true" width="100" alt="Double Donut Chart" style="max-width: 100%; height: auto;"/>
-</a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Double Donut Chart</b></td>
-</tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.neenopal.com/contact.html">NeenOpal Inc</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">This Double Donut Chart is a custom Power BI visual designed to display hierarchical data</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/doubleDonut2B2DE03D219E04DFF80684A45ECA4D25E.pbiviz">doubleDonut2B2DE03D219E04DFF80684A45ECA4D25E.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Version Change: 1.0.0.1 ➔ 1.0.0.2<br>Release Date: 2026-08-05<br>Previous Release Date: 2026-02-10</td></tr>
-<tr><td style="border: none !important; padding: 4px;"></td></tr>
-<tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/iran_lima.stoplight_range"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Stoplight Range.png?raw=true" width="100" alt="Stoplight Range" style="max-width: 100%; height: auto;"/>
-</a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Stoplight Range</b></td>
-</tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.insightlytics.com.br/?page=support&doc=stoplight_range">Insightlytics</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Custom ranges, instant status: a glowing stoplight that shows where your value lands</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/stoplightRange2B06A929B1BAF6EB780F2933F4139ADC.pbiviz">stoplightRange2B06A929B1BAF6EB780F2933F4139ADC.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Version Change: 1.27.6.0 ➔ 1.28.1.0<br>Release Date: 2026-08-05<br>Previous Release Date: 2026-07-17</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.smartvisuals.io/support">SmartVisuals.io</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">Gantt chart with hierarchy, dependencies, critical path and baselines. Core features free.</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/ganttChart4E14FBC6E508455AA6A89A17DD336BB8.pbiviz">ganttChart4E14FBC6E508455AA6A89A17DD336BB8.pbiviz</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">Version: 1.0.0.0<br>Release Date: 2026-08-31</td></tr>
 <tr><td style="border: none !important; padding: 4px;"></td></tr>
 </table>
 
 
-## 10 Changes in Listings or Terms: ##
+## 6 New Versions: ##
 
 <table style="width: 800px; border: none !important; border-collapse: collapse; border-spacing: 0;">
 <tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380868"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Enlighten Bubble Stack.png?raw=true" width="100" alt="Enlighten Bubble Stack" style="max-width: 100%; height: auto;"/>
+  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/nexoraanalysis.nexora-table"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Nexora Table.png?raw=true" width="100" alt="Nexora Table" style="max-width: 100%; height: auto;"/>
 </a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Enlighten Bubble Stack</b></td>
+  <td style="width: 680px; border: none !important; padding: 4px;"><b>Nexora Table</b></td>
 </tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.enlighten.co.nz/contact">ENLIGHTEN DESIGNS</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Fun with bubbles! Visualize each portion of your data as a stacked percentage bubble.</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/enlightenBubbleStack13709305C6AD4E59B8F78FFEA36FB62E.pbiviz">enlightenBubbleStack13709305C6AD4E59B8F78FFEA36FB62E.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">SupportLink: https://www.enlighten.co.nz/Contact ➔ https://www.enlighten.co.nz/contact</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://nexoraanalysis.com/contact">Nexora Analysis</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">An Arabic-first advanced data table for Power BI — heatmap, sparklines, pinned column, search.</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/nexoraTable74A92BB1DAE480BBC09C4B425BA7004.pbiviz">nexoraTable74A92BB1DAE480BBC09C4B425BA7004.pbiviz</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">Version Change: 2.8.2.0 ➔ 2.8.3.0<br>Release Date: 2026-08-31<br>Previous Release Date: 2026-07-27</td></tr>
 <tr><td style="border: none !important; padding: 4px;"></td></tr>
 <tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Enlighten Slicer.png?raw=true" width="100" alt="Enlighten Slicer" style="max-width: 100%; height: auto;"/>
+  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/nexoraanalysis.nexora-radial"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Nexora Radial.png?raw=true" width="100" alt="Nexora Radial" style="max-width: 100%; height: auto;"/>
 </a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Enlighten Slicer</b></td>
+  <td style="width: 680px; border: none !important; padding: 4px;"><b>Nexora Radial</b></td>
 </tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.enlighten.co.nz/contact">ENLIGHTEN DESIGNS</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Provides a simple way to interact with your data.</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/enlightenSlicerB18DC0CE4A1F4BA79CE49FBE40F3965F.pbiviz">enlightenSlicerB18DC0CE4A1F4BA79CE49FBE40F3965F.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">SupportLink: https://www.enlighten.co.nz/Contact ➔ https://www.enlighten.co.nz/contact</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://nexoraanalysis.com/contact">Nexora Analysis</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">An Arabic-first radial bar chart for Power BI — circular arcs with a center metric and RTL support.</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/nexoraRadial74A92BB1DAE480BBC09C4B425BA7005.pbiviz">nexoraRadial74A92BB1DAE480BBC09C4B425BA7005.pbiviz</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">Version Change: 2.9.10.0 ➔ 2.9.11.0<br>Release Date: 2026-08-31<br>Previous Release Date: 2026-07-29</td></tr>
 <tr><td style="border: none !important; padding: 4px;"></td></tr>
 <tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/enlightendesignsltd1587194661332.enlightenstoryteller"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Enlighten Storyteller.png?raw=true" width="100" alt="Enlighten Storyteller" style="max-width: 100%; height: auto;"/>
+  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/nexoraanalysis.nexora-button-slicer"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Nexora Button Slicer.png?raw=true" width="100" alt="Nexora Button Slicer" style="max-width: 100%; height: auto;"/>
 </a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Enlighten Storyteller</b></td>
+  <td style="width: 680px; border: none !important; padding: 4px;"><b>Nexora Button Slicer</b></td>
 </tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.enlighten.co.nz/contact">ENLIGHTEN DESIGNS</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Transform your data into compelling narratives with Enlighten AI Storyteller!</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/enlightenstorytellerE5CA73CE1C2C43878E5C0EBB4652BDD5.pbiviz">enlightenstorytellerE5CA73CE1C2C43878E5C0EBB4652BDD5.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">SupportLink: https://www.enlighten.co.nz/Contact ➔ https://www.enlighten.co.nz/contact</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://nexoraanalysis.com/contact">Nexora Analysis</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">An Arabic-first button slicer for Power BI , pills, dropdown and search, with RTL support.</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/nexoraButtonSlicer74A92BB1DAE480BBC09C4B425BA7007.pbiviz">nexoraButtonSlicer74A92BB1DAE480BBC09C4B425BA7007.pbiviz</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">Version Change: 2.6.12.0 ➔ 2.6.13.0<br>Release Date: 2026-08-31<br>Previous Release Date: 2026-07-27</td></tr>
 <tr><td style="border: none !important; padding: 4px;"></td></tr>
 <tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/officesolution1640276900203.dot-plot-chart-by-office-solution"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Dot Plot Chart by Office Solution.png?raw=true" width="100" alt="Dot Plot Chart by Office Solution" style="max-width: 100%; height: auto;"/>
+  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/nexoraanalysis.nexora-map"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Nexora Map.png?raw=true" width="100" alt="Nexora Map" style="max-width: 100%; height: auto;"/>
 </a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Dot Plot Chart by Office Solution</b></td>
+  <td style="width: 680px; border: none !important; padding: 4px;"><b>Nexora Map</b></td>
 </tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://newwebsite.innovationalofficesolution.com/power-bi-charts/quantile-dot-plot">Office Solution AI Labs</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Dot plot chart by office solution</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/DotPlotChartByOfficeSolution.pbiviz">DotPlotChartByOfficeSolution.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">HasFreePlans: FALSE ➔ TRUE</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://nexoraanalysis.com/support">Nexora Analysis</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">Arabic-first interactive Saudi map (RTL). Fully offline  embedded regions & governorates, drill-dow</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/nexoraMap74A92BB1DAE480BBC09C4B425BA7009.pbiviz">nexoraMap74A92BB1DAE480BBC09C4B425BA7009.pbiviz</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">Version Change: 1.0.1.0 ➔ 1.0.3.0<br>Release Date: 2026-08-31<br>Previous Release Date: 2026-07-21</td></tr>
 <tr><td style="border: none !important; padding: 4px;"></td></tr>
 <tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Enlighten Stack Shuffle.png?raw=true" width="100" alt="Enlighten Stack Shuffle" style="max-width: 100%; height: auto;"/>
+  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/b2.planinbicomments"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/PlanIn BI Comments.png?raw=true" width="100" alt="PlanIn BI Comments" style="max-width: 100%; height: auto;"/>
 </a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Enlighten Stack Shuffle</b></td>
+  <td style="width: 680px; border: none !important; padding: 4px;"><b>PlanIn BI Comments</b></td>
 </tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.enlighten.co.nz/contact">ENLIGHTEN DESIGNS</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Visually communicate data items in a beautiful, dynamic stack.</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/enlightenStackShuffle33EDB050C2424C618953642FFC0B291A.pbiviz">enlightenStackShuffle33EDB050C2424C618953642FFC0B291A.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">SupportLink: https://www.enlighten.co.nz/Contact ➔ https://www.enlighten.co.nz/contact</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.b2-bi.com/en">B2 d.o.o.</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">Visual with write-back capability enables Power BI users to comment data within the Power BI report.</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/planinbicomments254B65FAF3454F92862CBA877A9F88C6.pbiviz">planinbicomments254B65FAF3454F92862CBA877A9F88C6.pbiviz</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">Version Change: 3.0.0.5 ➔ 3.0.0.6<br>Release Date: 2026-08-31<br>Previous Release Date: 2026-01-09</td></tr>
 <tr><td style="border: none !important; padding: 4px;"></td></tr>
 <tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380923"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Enlighten World Flag Slicer.png?raw=true" width="100" alt="Enlighten World Flag Slicer" style="max-width: 100%; height: auto;"/>
+  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/excelnaccesscom1597493022219.orbit_bubble"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Orbit Bubble Chart.png?raw=true" width="100" alt="Orbit Bubble Chart" style="max-width: 100%; height: auto;"/>
 </a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Enlighten World Flag Slicer</b></td>
+  <td style="width: 680px; border: none !important; padding: 4px;"><b>Orbit Bubble Chart</b></td>
 </tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.enlighten.co.nz/contact">ENLIGHTEN DESIGNS</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Create a visually compelling country slicer to filter your report.</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/enlightenWorldFlagsE887F52F76244B1C927F80CF9724AEF6.pbiviz">enlightenWorldFlagsE887F52F76244B1C927F80CF9724AEF6.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">SupportLink: https://www.enlighten.co.nz/Contact ➔ https://www.enlighten.co.nz/contact</td></tr>
-<tr><td style="border: none !important; padding: 4px;"></td></tr>
-<tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380950"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Enlighten Data Story.png?raw=true" width="100" alt="Enlighten Data Story" style="max-width: 100%; height: auto;"/>
-</a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Enlighten Data Story</b></td>
-</tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.enlighten.co.nz/contact">ENLIGHTEN DESIGNS</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Use beautifully designed text to tell your story.</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/enlightenDataStoryDDFB78A6143E42CFAFBC50CCF18D978D.pbiviz">enlightenDataStoryDDFB78A6143E42CFAFBC50CCF18D978D.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">SupportLink: https://www.enlighten.co.nz/Contact ➔ https://www.enlighten.co.nz/contact</td></tr>
-<tr><td style="border: none !important; padding: 4px;"></td></tr>
-<tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Enlighten Waffle Chart.png?raw=true" width="100" alt="Enlighten Waffle Chart" style="max-width: 100%; height: auto;"/>
-</a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Enlighten Waffle Chart</b></td>
-</tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.enlighten.co.nz/contact">ENLIGHTEN DESIGNS</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Show your data effectively with a waffle pop-out number and quote.</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/enlightenWaffleChartC94C0BDE416B413A8071A92B5E75A718.pbiviz">enlightenWaffleChartC94C0BDE416B413A8071A92B5E75A718.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">SupportLink: https://www.enlighten.co.nz/Contact ➔ https://www.enlighten.co.nz/contact</td></tr>
-<tr><td style="border: none !important; padding: 4px;"></td></tr>
-<tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/enlightendesignsltd1587194661332.enlightenouterspace"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Enlighten Outer Space.png?raw=true" width="100" alt="Enlighten Outer Space" style="max-width: 100%; height: auto;"/>
-</a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Enlighten Outer Space</b></td>
-</tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.enlighten.co.nz/contact">ENLIGHTEN DESIGNS</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Create a report that is out of this world with this space-themed visualization!</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/Outerspace1442671919391.pbiviz">Outerspace1442671919391.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">SupportLink: https://www.enlighten.co.nz/Contact ➔ https://www.enlighten.co.nz/contact</td></tr>
-<tr><td style="border: none !important; padding: 4px;"></td></tr>
-<tr>
-  <td rowspan="5" style="width: 120px; border: none !important; vertical-align: top; text-align: center;"><a href="https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381948"><img src="https://github.com/DataChant/PowerBI-Visuals-AppSource/blob/main/All%20Visuals/Images/Enlighten Legend.png?raw=true" width="100" alt="Enlighten Legend" style="max-width: 100%; height: auto;"/>
-</a></td>
-  <td style="width: 680px; border: none !important; padding: 4px;"><b>Enlighten Legend</b></td>
-</tr>
-<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.enlighten.co.nz/contact">ENLIGHTEN DESIGNS</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">Create independent interactives legends, allowing you creativity and flexibility</td></tr>
-<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/enlightenLegend0ED91DCE508743998CF5A23E37414AD6.pbiviz">enlightenLegend0ED91DCE508743998CF5A23E37414AD6.pbiviz</a></td></tr>
-<tr><td style="border: none !important; padding: 4px;">SupportLink: https://www.enlighten.co.nz/Contact ➔ https://www.enlighten.co.nz/contact</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Publisher: <a href="https://www.excelnaccess.com/orbit-bubble-chart">Excelnaccess.com</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">Visualize hierarchical data with engaging orbiting bubbles in Power BI.</td></tr>
+<tr><td style="border: none !important; padding: 4px;">Direct Download: <a href="https://github.com/DataChant/PowerBI-Visuals-AppSource/raw/refs/heads/main/All%20Visuals/PBIVIZ%20with%20guid/orbit50DB3783432B40A69C0B91926CE74CD9.pbiviz">orbit50DB3783432B40A69C0B91926CE74CD9.pbiviz</a></td></tr>
+<tr><td style="border: none !important; padding: 4px;">Version Change: 1.0.0.2 ➔ 1.0.0.3<br>Release Date: 2026-08-31<br>Previous Release Date: 2026-08-13</td></tr>
 <tr><td style="border: none !important; padding: 4px;"></td></tr>
 </table>
 
