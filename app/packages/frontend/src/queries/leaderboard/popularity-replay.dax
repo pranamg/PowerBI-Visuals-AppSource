@@ -1,0 +1,93 @@
+// Each visual's popularity, ratings count and average stars on every day they
+// were read, and whether it was listed and certified at the end of that day,
+// for the replay. Days are counted back from the latest snapshot, so day 0 is
+// its day:
+//   Listing = listed at the end of the day (1) + a new version that day (2)
+//             + certified at the end of the day (4)
+// The Leaderboard table is a change log, so a visual that is missing from a
+// day simply held its figures; the client carries values forward.
+// When a visual was read more than once in a day, the latest reading counts.
+// A popularity of 0 is a failed crawl rather than a real reading, so those
+// rows are left out unless they mark the visual's removal.
+// GROUPBY can only aggregate CURRENTGROUP(), so the latest row of each day is
+// found by packing the second of the day in front of each value, which makes
+// MAX pick the value from the latest row, and the result unpacks it. Every
+// packed number stays below 2^53.
+//
+// The published site and the app read the saved result of this query, which
+// scripts/snapshot.mjs builds. That file reaches back to January 2024, before
+// the Leaderboard table began, and dates each arrival, new version and
+// certification from the commits of "Visuals Summary.csv", which list every
+// visual on each day they were made. This table records a visual only when its
+// figures change, so it sees many of those changes weeks late and cannot date
+// them. Here Listing says only whether the visual was listed and certified,
+// and never marks a new version. That file also keeps a popularity of 0 that
+// comes before a visual's popularity first rose above 0, since that is where the
+// visual stood rather than a failed crawl. A visual whose first row is already
+// above 0 gets a reading on the snapshot before that row, made of the row's
+// figures minus its changes, so it rises from where it stood. This query leaves
+// both out and starts each visual at its first popularity above 0.
+DEFINE
+    VAR _asOf = CALCULATE ( MAX ( Leaderboard[Snapshot Date] ), REMOVEFILTERS () )
+    VAR _rows =
+        SELECTCOLUMNS (
+            FILTER (
+                Leaderboard,
+                Leaderboard[Popularity] > 0 || Leaderboard[Is Removed]
+            ),
+            "Visual", Leaderboard[Visual GUID],
+            "Day", DATEDIFF ( Leaderboard[Snapshot Date], _asOf, DAY ),
+            "Second",
+                ROUND (
+                    ( Leaderboard[Snapshot Date] - INT ( Leaderboard[Snapshot Date] ) ) * 86400,
+                    0
+                ),
+            "Reading", NOT Leaderboard[Is Removed],
+            "State",
+                IF ( Leaderboard[Is Removed], 0, 1 )
+                    + IF ( Leaderboard[Is Certified] = "Certified", 4, 0 ),
+            "Popularity", Leaderboard[Popularity],
+            "Raters", Leaderboard[# of Ratings],
+            "Stars", Leaderboard[Average Rating]
+        )
+    VAR _packed =
+        SELECTCOLUMNS (
+            _rows,
+            "Visual", [Visual],
+            "Day", [Day],
+            "StatePacked", [Second] * 10 + [State],
+            "PopularityPacked",
+                IF ( [Reading], [Second] * 1000000 + ROUND ( [Popularity] * 1000, 0 ) ),
+            "RatersPacked",
+                IF (
+                    [Reading] && NOT ISBLANK ( [Raters] ),
+                    [Second] * 1000000000 + [Raters]
+                ),
+            "StarsPacked",
+                IF (
+                    [Reading] && NOT ISBLANK ( [Stars] ),
+                    [Second] * 1000 + ROUND ( [Stars] * 100, 0 )
+                )
+        )
+    VAR _days =
+        GROUPBY (
+            _packed,
+            [Visual],
+            [Day],
+            "State", MAXX ( CURRENTGROUP (), [StatePacked] ),
+            "Popularity", MAXX ( CURRENTGROUP (), [PopularityPacked] ),
+            "Raters", MAXX ( CURRENTGROUP (), [RatersPacked] ),
+            "Stars", MAXX ( CURRENTGROUP (), [StarsPacked] )
+        )
+
+EVALUATE
+SELECTCOLUMNS (
+    _days,
+    "Visual", [Visual],
+    "Day", [Day],
+    "Popularity", IF ( NOT ISBLANK ( [Popularity] ), MOD ( [Popularity], 1000000 ) / 1000 ),
+    "Raters", IF ( NOT ISBLANK ( [Raters] ), MOD ( [Raters], 1000000000 ) ),
+    "Stars", IF ( NOT ISBLANK ( [Stars] ), MOD ( [Stars], 1000 ) / 100 ),
+    "Listing", MOD ( [State], 10 )
+)
+ORDER BY [Visual], [Day] DESC
